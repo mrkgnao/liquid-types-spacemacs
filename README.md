@@ -6,16 +6,16 @@ Integrates with Stack (using `stack exec`).
 
 ## Install
 
-1. First, install Liquid Haskell: either globally (which is what I've done), or project-locally like Intero does (haven't tested this). For the former, just run
+First, install Liquid Haskell: either globally (which is what I've done), or project-locally like Intero does (haven't tested this). For the former, just run
 
-  ```
-  $ stack install liquidhaskell
-  ```
+```sh
+$ stack install liquidhaskell
+```
 
-2. Next, add this repo to your private layers:
+Next, add this repo to your private layers:
 
-```elisp
-    git clone https://github.com/mrkgnao/liquid-types-spacemacs .emacs.d/private/liquid-types
+```sh
+$ git clone https://github.com/mrkgnao/liquid-types-spacemacs .emacs.d/private/liquid-types
 ```    
 
 (Note that `~/.spacemacs.d/layers` is also fine. It's what I use, and may be a better choice if you use an `~/.spacemacs.d/init.el` file.)
