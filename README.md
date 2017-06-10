@@ -1,5 +1,7 @@
 # liquid-types-spacemacs
-Spacemacs Layer for LiquidHaskell
+
+Spacemacs layer for LiquidHaskell.
+
 
 ## Install
 
@@ -11,7 +13,7 @@ Install [spacemacs](https://github.com/syl20bnr/spacemacs)
 **Step 2** 
 Add this layer to the private layers
 
-    git clone https://github.com/ucsd-progsys/liquid-types-spacemacs .emacs.d/private/liquid-types
+    git clone https://github.com/mrkgnao/liquid-types-spacemacs .emacs.d/private/liquid-types
     
 **Step 3** 
 Activate the layer in your `~/.spacemacs`
